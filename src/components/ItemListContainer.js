@@ -1,14 +1,13 @@
 import React from 'react'
-import Common from './Common'
+import ItemCount from './ItemCount';
 
 function ItemListContainer (){
     return (
-             <section className="hero">
-                 <div className="bienvenidaBox">
-                     <h1 className="tituloBenvenida"><span className="tituloAccent">Hola</span> te damos la bienvenida</h1>
-                    <Common.Btn text="Comprar"></Common.Btn>
-                 </div>
-             </section>
+        <section>
+             <h2 className="tituloSeccion">Nuestros <span className="tituloAccent">Productos</span></h2>
+                <ItemCount></ItemCount>
+        </section>
+             
     )
 }
 

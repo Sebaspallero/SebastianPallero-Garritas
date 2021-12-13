@@ -34,7 +34,6 @@
 }
 
 
-
 .NavBar{
   display: flex;
   flex-direction: row;
@@ -123,7 +122,7 @@
 .tituloAccent{
   color: var(--orange-clr);
 }
-
+/* ---------------------Boton generico-------------- */
 .btn{
   margin-top: 1rem;
   padding: .8rem 2.8rem;
@@ -142,4 +141,65 @@
 .btn:hover{
   background-color: var(--black-clr);
   color: var(--light-bck);
+}
+
+/* --------------------boton contador--------------------- */
+.contenedorCompra{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorContador{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contador{
+  padding: 5px 14px;
+  border-radius: 30px;
+  border: solid 1px var(--black-clr);
+  background-color: var(--light-bck);
+  color:var(--black-clr);
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.cantidadProducto{
+  font-size: 1em;
+}
+
+.btnCarrito{
+  margin-top: 1rem;
+  padding: .8rem 2rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0rem;
+  cursor: pointer;
+  background:none;
+  font-size: .9rem;
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  border: var(--border);
+  color: var(--black-clr);
+}
+
+.btnCarrito:hover{
+  background-color: var(--black-clr);
+  color: var(--light-bck);
+}
+
+
+/* ---------------------------seccion----------------------- */
+.tituloSeccion{
+  font-size: 2rem;
+  color: var(--black-clr);
+  line-height: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+
 }
