@@ -7,6 +7,7 @@
   font-family: 'poppins';
   scroll-behavior: smooth;
   scroll-padding-top:4rem;
+  margin: 0;
 }
 
 :root {
@@ -41,6 +42,7 @@
   align-items: center;
   background-color: var(--white-clr);
   box-shadow: var(--boxShadow);
+  padding: 1em 0em;
 }
 
 .LogoNav{
@@ -202,4 +204,37 @@
   text-transform: capitalize;
   text-align: center;
 
+}
+
+/* ---------------------------Item--------------------------------- */
+
+.contenedorProductos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+.contenedorProducto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgProducto{
+  height: 450px;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.nombreProducto{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black-clr);
+  text-align: center;
+}
+
+.precioProducto{
+  font-size: 1.3rem;
+  color: var(--orange-clr);
+  text-align: center;
 }
